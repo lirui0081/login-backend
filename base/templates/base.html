@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+{% load staticfiles %}
+{% load i18n %}
+
+<head>
+
+    <title> {% block title %}{% endblock %} </title>
+
+    <meta charset="utf-8" />
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- common css -->
+    <link href="http://static.jackon.me/Font-Awesome-4.4.0/css/font-awesome.min.css" rel="stylesheet"></link>
+    <link href="{% static "css/commons.css" %}" rel="stylesheet">
+
+    {% block css %}{% endblock %}
+
+</head>
+
+<body>
+
+    <!-- start: Header -->
+    {% include 'navbar.html' %}
+    <!-- end: Header -->
+
+    <!-- start: Container -->
+    <div class="container-fluid-full without-sidebar">
+        <div class="row-fluid">
+            <!-- start: Content -->
+            <div id="content" class="content">
+            {% block content %}{% endblock %}
+            </div>
+            <!-- end: Content -->
+        </div>
+    </div>
+    <!-- end: Container -->
+
+    <!-- common js -->
+    <script src="{% static "js/jquery-1.9.1.min.js" %}"></script>
+    <script src="{% static "js/jquery.ui.touch-punch.js" %}"></script>
+    <script src="{% static "js/modernizr.js" %}"></script>
+    <script src="{% static "js/bootstrap.min.js" %}"></script>
+    <script src="{% static "js/jquery.chosen.min.js" %}"></script>
+    <script src="{% static "js/jquery.uniform.min.js" %}"></script>
+    <script src="{% static "js/jquery.iphone.toggle.js" %}"></script>
+    <!-- <script src="{% static "js/retina.js" %}"></script> -->
+    <!-- site js -->
+    <script src="{% static "js/site.js" %}"></script>
+    <script src="{% static "js/commons.js" %}"></script>
+
+    {% block js %}{% endblock %}
+
+</body>
+
+</html>

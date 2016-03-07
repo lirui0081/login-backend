@@ -1,0 +1,161 @@
+.breadcrumb {
+  padding: 0;
+  margin: 0;
+  position: static; }
+
+.navbar-inner {
+  margin: 0; }
+
+.main {
+  background: #fff;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #efefef;
+  min-height: 200px; }
+  .main .top-section {
+    padding-top: 20px; }
+    .main .top-section .name {
+      color: #505050;
+      font-size: 16px;
+      font-weight: bold;
+      padding: 0;
+      margin: 0;
+      line-height: 2em;
+      text-align: center; }
+  .main .details {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px 50px;
+    list-style: none;
+    margin: 0; }
+    .main .details li {
+      float: left;
+      text-align: center;
+      font-size: 14px;
+      color: #505050;
+      width: 33.333%; }
+    .main .details .phone-box .phone-num {
+      background: none;
+      border: 0;
+      outline: none;
+      border-radius: 0;
+      text-shadow: none;
+      box-shadow: none;
+      margin: 0;
+      padding: 0;
+      vertical-align: baseline;
+      margin-left: .5em;
+      width: 120px;
+      border: 1px solid #ccc;
+      border-radius: 10px; }
+    .main .details .phone-box .phone-num.disabled {
+      background: none;
+      border: 0;
+      outline: none;
+      border-radius: 0;
+      text-shadow: none;
+      box-shadow: none;
+      margin: 0;
+      padding: 0;
+      vertical-align: baseline;
+      margin-left: .5em;
+      width: 120px; }
+    .main .details .phone-box .iphone-btn {
+      background: #54addc;
+      font-size: 14px;
+      color: #fff;
+      line-height: 26px;
+      padding: 0;
+      margin: 0;
+      height: 26px;
+      width: 56px;
+      text-align: center;
+      border: 0;
+      border-radius: 20px;
+      outline: none;
+      vertical-align: baseline; }
+  .main .bottom-section {
+    border: 1px solid #d6d6d6;
+    margin: 10px 15px;
+    border-radius: 6px 6px 0 0; }
+    .main .bottom-section .top-til {
+      height: 40px;
+      line-height: 40px;
+      border-radius: 6px 6px 0 0;
+      background: #f0f0f0; }
+      .main .bottom-section .top-til > div {
+        float: left;
+        color: #424c56;
+        font-size: 14px;
+        box-sizing: border-box; }
+        .main .bottom-section .top-til > div.record {
+          width: 40%;
+          padding-left: 1em;
+          font-size: 16px;
+          font-weight: bold; }
+        .main .bottom-section .top-til > div.num {
+          width: 15%; }
+        .main .bottom-section .top-til > div.money {
+          width: 15%; }
+        .main .bottom-section .top-til > div.reg-time {
+          width: 15%; }
+        .main .bottom-section .top-til > div.last-time {
+          width: 15%; }
+    .main .bottom-section .filter {
+      padding: 16px 0; }
+      .main .bottom-section .filter .condition {
+        display: inline-block;
+        vertical-align: baseline;
+        width: 85px;
+        border-right: 1px solid #ccc;
+        line-height: 1em;
+        text-align: center;
+        padding-right: 1em;
+        box-sizing: border-box; }
+      .main .bottom-section .filter a {
+        color: #000005;
+        font-size: 14px;
+        margin: 0 1em;
+        padding: 2px 8px;
+        text-decoration: none; }
+        .main .bottom-section .filter a.active, .main .bottom-section .filter a:hover {
+          background: #54addc;
+          border-radius: 4px;
+          color: #fff; }
+    .main .bottom-section .table-record {
+      margin: 25px;
+      margin-top: 0;
+      padding-bottom: 70px; }
+      .main .bottom-section .table-record ul {
+        margin: 0;
+        list-style: none; }
+        .main .bottom-section .table-record ul li {
+          float: left;
+          text-align: center; }
+      .main .bottom-section .table-record .table-th {
+        height: 30px;
+        line-height: 30px;
+        color: #fff;
+        background: #54addc; }
+        .main .bottom-section .table-record .table-th li {
+          line-height: 30px; }
+      .main .bottom-section .table-record .table-td {
+        height: 40px; }
+        .main .bottom-section .table-record .table-td:nth-child(even) {
+          background: #f0f0f0; }
+        .main .bottom-section .table-record .table-td li {
+          line-height: 40px;
+          float: left; }
+      .main .bottom-section .table-record .t-num {
+        width: 28%; }
+      .main .bottom-section .table-record .t-time {
+        width: 28%; }
+      .main .bottom-section .table-record .t-man {
+        width: 14%; }
+      .main .bottom-section .table-record .t-shop {
+        width: 14%; }
+      .main .bottom-section .table-record .t-note {
+        width: 14%; }
+
+/*# sourceMappingURL=member-detail.css.map*/

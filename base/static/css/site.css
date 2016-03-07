@@ -1,0 +1,448 @@
+/*    ALL     */
+h1 {
+    text-align: center;
+}
+
+.small-h1 {
+    font-size: 25px;
+}
+
+
+/*
+ *
+ *     page : sign in
+ *
+ *
+ **/
+
+.form-signin .input-group,
+.form-signin .checkbox,
+.form-signin .form-actions {
+    text-align: center;
+}
+.form-signin .forgot-password {
+    margin:10px 0;
+}
+/*
+ *
+ *  page : RFIDsupervise
+ *
+ *
+ * */
+
+.select-down {
+    margin-bottom: 0px;
+}
+
+/* form  */
+.firstForm {
+   margin: 45px auto;
+   text-align: center;
+}
+
+#RFIDsupervise button{
+    margin-left: 10%;
+}
+/* data */
+
+.RFIDsupervise-data span:not(:last-child){
+    margin-right: 5%;
+}
+
+p.RFIDsupervise-data:after {
+    display: block;
+    content:'';
+    height: 1px;
+    width: 100%;
+    border-bottom: 1px solid #ABA8A8;
+}
+/* table */
+
+p.RFIDsupervise-data + .box-content{
+    margin-top: 55px;
+}
+.td-center th, .td-center td{
+    text-align: center;
+}
+
+#error-rfidTable td{
+    color: #EF0909;
+}
+
+span.error{
+    color: #ff0033;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+caption {
+    padding: 20px 0;
+
+}
+
+.box-content {
+    margin: 30px auto;
+}
+
+
+/*
+ *
+ *   page : product-check
+ *
+ * */
+
+td.data-fewer {
+    color: #ff0000;
+}
+
+td.data-more {
+    color: #00dd00;
+}
+
+#product-check caption,
+#product-shelves caption,
+#shop-list caption {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+/*
+ *
+ *  page : shops
+ *
+ **/
+
+.shops-p {
+    line-height: 100%;
+}
+
+.shops-p .h1-title {
+    float: right;
+    font-size: 1.5rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    margin-right: 45% ;
+    vertical-align: middle;
+}
+
+/*
+ *
+ *
+ * page : RFID-lists
+ *
+ *
+ * */
+
+#RFIDlist select, #RFIDlist input{
+    margin-right: 3%;
+}
+#RFIDlist input {
+    margin-bottom: 0;
+}
+
+.btn-long {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+ul.rfid-info-cards {
+    list-style: none;
+    margin: 0px auto;
+    text-align: center;
+    width: 100%;
+}
+
+.rfid-info-card {
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    width: 28%;
+    min-width: 105px;
+    margin: 1.5% 2%;
+    vertical-align: top;
+}
+@media (max-width: 640px) {
+  .rfid-info-card{
+      width: 45%;
+  }
+}
+.img-box {
+    width: 100%;
+    background: #fff;
+    padding: 30% 0;
+}
+.left-img {
+    width: 60%;
+    min-width: 100px;
+    height:auto;
+}
+
+.right-text-info {
+    display:table-cell;
+    *display: inline-block;
+    width: 2000px;
+    *width: auto;
+}
+
+.rfid-info-card .detail {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 16px 0;
+}
+
+.rfid-info-card .detail .status {
+    display: inline-block;
+    font-size: 15px;
+    padding: 3px 10px;
+    color: #fff;
+    border-radius: 3px;
+    word-wrap: break-word;
+}
+.rfid-info-card .detail .status.zaigui {
+    background: #00acac;
+}
+.rfid-info-card .detail .status.zaiku {
+    background: #ac9600;
+}
+.rfid-info-card .detail .status.yishou {
+    background: #A7A7A7;
+}
+
+.rfid-info-card .detail .name {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 0 8px 0;
+    margin: 0;
+}
+.rfid-info-card .detail .rfid {
+    margin: 0;
+    padding-bottom: 6px;
+    word-wrap: break-word;
+}
+.rfid-info-card .detail .tip {
+    margin: 0;
+    padding-bottom: 6px;
+    font-size: 15px;
+    color: #0e75dc;
+}
+
+.search-form {
+  text-align: left;
+  padding-left: 4%;
+}
+.search-form .select-down {
+  border-radius: 0;
+}
+.search-form .btn {
+  background: #00acac;
+  box-shadow: none;
+  text-shadow: none;
+  border-radius: 3px;
+  border: 0;
+  padding: 5px 25px;
+}
+/*
+ *
+ *
+ * warehousing
+ *
+ *
+ *
+ * */
+
+/*
+ *
+ *
+ * warehouse--Add
+ * warehouse--reduce
+ *
+ *
+ * */
+
+#warehouse-add h2 {
+    margin: 30px 20px;
+    color: rgba(232, 30, 43, 0.91);
+}
+
+.form-actions {
+    background-color: #fff;
+    border-top: 0px;
+}
+#warehouse-add .checkbox.inline,
+#warehouse-add .radio.inline {
+    margin-left: 0px;
+    margin-right: 10px;
+}
+label.radio.inline{
+    padding-left: 20px;
+}
+.form-horizontal .controls{
+    margin-left: 180px;
+}
+#warehouse-add #ps,
+#warehouse-reduce #ps {
+    width:270px;
+}
+#warehouse-add a {
+    color: rgba(0, 124, 204, 0.93);
+    text-decoration: underline;
+}
+
+
+/*商品详情弹窗*/
+.mask {
+    display: none;
+    background: #000;
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    opacity: .75;
+    right: 0;
+}
+.product-modal {
+    display: none;
+    position: fixed;
+    width: 72%;
+    height: auto;
+    background: #f2f2f2;
+    z-index: 999;
+    top: 50px;
+    left: 14%;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+.product-modal .top-close {
+    position: absolute;
+    color: #fff;
+    width: 22px;
+    height: 22px;
+    font-size: 22px;
+    top: -14px;
+    right: -33px;
+    cursor: pointer;
+}
+.product-modal .top-close  > i {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url('../images/iconfont-close.png') no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.product-modal .left {
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    left: -50px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url('../images/iconfont-arrowleft.png') no-repeat;
+    background-position: center;
+    background-size: 100%;
+    cursor: pointer;
+}
+.product-modal .right {
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    right: -50px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url('../images/iconfont-arrowright.png') no-repeat;
+    background-position: center;
+    background-size: 100%;
+    cursor: pointer;
+}
+.product-modal .box {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 20px 20px;
+  box-sizing: border-box;
+}
+.product-modal .box .img {
+  display: block;
+  width: 45%;
+  float: left;
+}
+.product-modal .box .img img {
+  width: 90%;
+  max-height: 100%;
+}
+.product-modal .box .detail {
+  display: block;
+  width: 55%;
+  float: left;
+  padding-left: 20px;
+  box-sizing: border-box;
+  text-align: left;
+  padding-left: 6%;
+}
+.product-modal .box .detail .top {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.product-modal .box .detail .top .name {
+  float: left;
+  letter-spacing: 2px;
+  font-weight: bold;
+  padding-right: 1em;
+	color: #424c56;
+  font-size: 16px;
+}
+.product-modal .box .detail .top .status {
+  float: left;
+}
+.product-modal .detail .status {
+    display: inline-block;
+    font-size: 15px;
+    padding: 2px 10px;
+    position: relative;
+    top: -2px;
+    color: #fff;
+    border-radius: 3px;
+    word-wrap: break-word;
+}
+.product-modal .detail .status.cabinet {
+    background: #00acac;
+}
+.product-modal .detail .status.warehouse {
+    background: #ac9600;
+}
+.product-modal .detail .center>div {
+    font-size: 14px;
+	  color: #424c56;
+    line-height: 26px;
+}
+.product-modal .detail .bottom {
+  padding-top: 20px;
+}
+.product-modal .detail .bottom > div {
+  float: left;
+  width: 33.333%;
+  padding-top: 20px;
+}
+@media screen and (max-width: 700px) {
+  .product-modal {
+    top: 20px;
+  }
+  .product-modal .box {
+    padding: 10px;
+  }
+	.product-modal .box .img ,
+	.product-modal .box .detail {
+    width: 100%;
+  }
+  .product-modal .box .detail {
+    padding-left: 0;
+  }
+  .product-modal .detail .bottom > div {
+    width: 50%;
+    padding-top: 4px;
+  }
+}

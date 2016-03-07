@@ -1,0 +1,215 @@
+.main {
+  min-height: 600px;
+  background: #fff;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #efefef;
+  position: relative;
+  padding: 0 15px;
+  padding-bottom: 20px; }
+  .main .add-form {
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align: center; }
+    .main .add-form .title {
+      color: #505050;
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 2em;
+      padding-top: 1em;
+      margin: 0; }
+    .main .add-form .employee-id {
+      padding-top: 20px;
+      font-size: 14px;
+      font-weight: normal;
+      color: #505050;
+      margin: 0;
+      line-height: 1.7em; }
+    .main .add-form .select-box {
+      text-align: center;
+      width: 100%;
+      display: block;
+      position: relative;
+      width: 346px;
+      margin: 0 auto;
+      padding-top: 30px; }
+      .main .add-form .select-box .select-item {
+        width: 100%;
+        position: relative; }
+        .main .add-form .select-box .select-item.shop-select {
+          float: left; }
+        .main .add-form .select-box .select-item.position-select {
+          float: right; }
+        .main .add-form .select-box .select-item input {
+          display: none; }
+        .main .add-form .select-box .select-item .name {
+          height: 27px;
+          width: 100%;
+          padding-left: 1.4em;
+          border-radius: 20px;
+          border: 1px solid #e8e8e8;
+          box-sizing: border-box;
+          text-align: left;
+          line-height: 27px;
+          font-size: 14px;
+          color: #505050;
+          background-size: auto 20%;
+          background-position: 94% center; }
+        .main .add-form .select-box .select-item ul {
+          display: none;
+          margin: 0;
+          padding: 0;
+          position: absolute;
+          list-style: none;
+          width: 100%;
+          padding: 0 1px;
+          box-sizing: border-box;
+          border: 1px solid #e5e5e5;
+          border-radius: 2px;
+          top: 30px;
+          background: #fff;
+          z-index: 999; }
+          .main .add-form .select-box .select-item ul li {
+            width: 100%;
+            height: 27px;
+            line-height: 27px;
+            color: #505050;
+            text-align: left;
+            padding-left: 1em;
+            box-sizing: border-box;
+            border-bottom: 1px solid #e5e5e5;
+            cursor: pointer; }
+            .main .add-form .select-box .select-item ul li:last-child {
+              border-bottom: 0; }
+    .main .add-form .employee-name, .main .add-form .employee-name, .main .add-form .employee-phone-num, .main .add-form .employee-psw-check, .main .add-form .employee-psw, .main .add-form .employee-role {
+      display: block;
+      width: 346px;
+      box-sizing: border-box;
+      height: 27px;
+      padding-left: 1.4em;
+      border-radius: 20px;
+      border: 1px solid #e8e8e8;
+      text-align: left;
+      line-height: 27px;
+      font-size: 14px;
+      color: #505050;
+      margin: 0 auto;
+      margin-top: 15px;
+      box-shadow: none;
+      line-height: none;
+      background: #fff; }
+    .main .add-form .ipt-group {
+      position: relative; }
+      .main .add-form .ipt-group .error-tip {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin-left: 180px;
+        font-size: 13px;
+        top: 4px;
+        color: red; }
+    .main .add-form .error {
+      position: relative;
+      border-color: red; }
+    .main .add-form .employee-role {
+      background: #fff;
+      cursor: default; }
+    .main .add-form .submit {
+      width: 100px;
+      height: 30px;
+      line-height: 30px;
+      background: #54addc;
+      color: #fff;
+      font-size: 14px;
+      border: none;
+      padding: 0;
+      border-radius: 20px;
+      display: inline-block;
+      margin-top: 15px; }
+    .main .add-form .role-box {
+      position: relative; }
+      .main .add-form .role-box .role-checked-box {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 346px;
+        box-sizing: border-box;
+        height: 27px;
+        padding-left: 1em;
+        margin-left: -173px;
+        left: 50%; }
+        .main .add-form .role-box .role-checked-box .checked-item {
+          cursor: pointer;
+          float: left;
+          background: #54addc;
+          color: #fff;
+          padding: 0px 8px;
+          font-size: 13px;
+          border-radius: 20px;
+          position: relative;
+          top: -1px;
+          cursor: default;
+          margin: 4px;
+          position: relative; }
+          .main .add-form .role-box .role-checked-box .checked-item .item-delete {
+            position: absolute;
+            right: 7px;
+            top: 1px;
+            transform: rotate(45deg);
+            cursor: pointer; }
+      .main .add-form .role-box .check-box {
+        width: 322px;
+        margin: 0 auto;
+        border: 1px solid #e8e8e8;
+        border-top: 0;
+        height: 170px; }
+        .main .add-form .role-box .check-box .check-item {
+          cursor: pointer;
+          float: left;
+          margin: 5px 10px;
+          background: #54addc;
+          color: #fff;
+          padding: 0px 8px;
+          font-size: 13px;
+          border-radius: 20px; }
+        .main .add-form .role-box .check-box .check-item.checked {
+          background: #c1c1c1; }
+
+@media only screen and (max-width: 500px) {
+  #content {
+    padding-left: 0;
+    padding-right: 0; }
+    #content .main {
+      padding-left: 0;
+      padding-right: 0; } }
+
+.breadcrumb {
+  padding: 0;
+  margin: 0;
+  position: static; }
+
+.gender-box {
+  width: 346px;
+  box-sizing: border-box;
+  height: 27px;
+  line-height: 27px;
+  text-align: left;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding-left: 10px;
+  vertical-align: baseline; }
+  .gender-box input {
+    vertical-align: baseline; }
+
+.ipt-label {
+  position: absolute;
+  bottom: 0;
+  line-height: 30px;
+  left: 50%;
+  margin-left: -270px;
+  width: 5em;
+  text-align: right; }
+
+/*# sourceMappingURL=employee-detail.css.map*/

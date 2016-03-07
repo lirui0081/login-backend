@@ -1,0 +1,213 @@
+.breadcrumb {
+  padding: 0;
+  margin: 0;
+  position: static; }
+
+.main {
+  background: #fff;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #efefef;
+  min-height: 200px;
+  padding: 10px; }
+  .main .base-info, .main .result-box {
+    display: block; }
+    .main .base-info .title, .main .result-box .title {
+      color: #424c56;
+      font-size: 16px;
+      font-weight: bold;
+      margin: 0;
+      padding: 0;
+      line-height: 30px;
+      padding-left: 8px;
+      border-left: 2px solid #54addc; }
+    .main .base-info ul, .main .result-box ul {
+      margin: 0;
+      padding: 10px 0;
+      box-sizing: border-box;
+      list-style: none;
+      overflow: hidden; }
+      .main .base-info ul li, .main .result-box ul li {
+        width: 33.333%;
+        float: left;
+        line-height: 40px; }
+        .main .base-info ul li .name, .main .result-box ul li .name {
+          color: #505050;
+          font-size: 14px;
+          padding-right: 1.2em; }
+        .main .base-info ul li .d, .main .result-box ul li .d {
+          font-size: 14px;
+          color: #979797; }
+  .main .result-box .conclusion-box .name {
+    color: #505050;
+    font-size: 14px;
+    padding-right: 1.2em;
+    width: 100%;
+    display: block; }
+  .main .result-box .conclusion-box .conclusion {
+    display: block;
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 95px;
+    width: 500px;
+    resize: none;
+    float: left;
+    margin: 0;
+    padding: 0.6em; }
+  .main .result-box .conclusion-box .button-box {
+    overflow: hidden;
+    height: 95px;
+    padding-left: 30px;
+    width: 140px;
+    position: relative; }
+    .main .result-box .conclusion-box .button-box button {
+      position: absolute;
+      right: 0;
+      display: block;
+      padding: 0;
+      margin: 0;
+      border: 0;
+      outline: 0;
+      width: 100px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+      border-radius: 30px;
+      color: #fff;
+      font-size: 14px; }
+      .main .result-box .conclusion-box .button-box button.cancle {
+        background: #ff1727;
+        bottom: 40px; }
+        .main .result-box .conclusion-box .button-box button.cancle:active {
+          background: #e30010; }
+      .main .result-box .conclusion-box .button-box button.complete {
+        background: #54addc;
+        bottom: 0px; }
+        .main .result-box .conclusion-box .button-box button.complete:active {
+          background: #2b98d2; }
+  .main .data-box {
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 50px 60px;
+    box-sizing: border-box;
+    list-style: none; }
+    .main .data-box li {
+      float: left;
+      width: 25%;
+      text-align: center; }
+      .main .data-box li .inner {
+        width: 150px;
+        height: 60px;
+        box-sizing: border-box;
+        margin: 0 auto;
+        line-height: 60px;
+        text-align: center;
+        border-radius: 60px;
+        border: 1px solid #e0e1e1;
+        background: #f5f8fa; }
+        .main .data-box li .inner .name {
+          line-height: 30px;
+          color: #505050;
+          height: 30px;
+          display: block;
+          font-size: 14px; }
+        .main .data-box li .inner .cont {
+          line-height: 1em;
+          color: #54addc;
+          height: 30px;
+          display: block;
+          font-size: 24px; }
+      .main .data-box li.data-profit .inner .cont {
+        color: #ff1727; }
+      .main .data-box li.none .inner .cont {
+        color: #505050; }
+  .main .progress-bar {
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin-bottom: 50px; }
+    .main .progress-bar .stat {
+      font-size: 14px;
+      color: #3e6372; }
+    .main .progress-bar .progress-wrap {
+      height: 12px;
+      background: #54addc;
+      width: 100%;
+      border-radius: 5px;
+      padding: 2px 3px;
+      box-sizing: border-box; }
+      .main .progress-bar .progress-wrap .progress-inner {
+        height: 100%;
+        width: 44%;
+        background: #326884;
+        border-radius: 10px; }
+  .main .item-box {
+    box-sizing: border-box;
+    display: block;
+    border: 1px solid #d6d6d6;
+    border-radius: 4px;
+    overflow: hidden; }
+    .main .item-box .item-th {
+      height: 38px;
+      line-height: 38px;
+      box-sizing: border-box;
+      background: #f0f0f0;
+      color: #424c56;
+      padding-left: 1em;
+      border-bottom: 1px solid #d6d6d6; }
+    .main .item-box .item-body {
+      margin: 0;
+      list-style: none;
+      padding: 0;
+      box-sizing: border-box;
+      padding: 30px 100px;
+      overflow: hidden;
+      padding-bottom: 0; }
+      .main .item-box .item-body li {
+        text-align: center;
+        width: 25%;
+        box-sizing: border-box;
+        float: left;
+        position: relative;
+        padding-bottom: 50px;
+        margin: 30px 0; }
+        .main .item-box .item-body li img {
+          width: 60%;
+          height: auto;
+          border: 1px solid #d6d6d6;
+          border-radius: 6px; }
+        .main .item-box .item-body li .item-name {
+          position: absolute;
+          width: 100%;
+          text-align: center;
+          font-size: 16px;
+          color: #424c56;
+          font-weight: bold;
+          line-height: 30px;
+          bottom: 20px;
+          text-decoration: none; }
+        .main .item-box .item-body li .item-price {
+          position: absolute;
+          width: 100%;
+          text-align: center;
+          font-size: 16px;
+          color: #424c56;
+          font-weight: normal;
+          line-height: 20px;
+          bottom: 0px;
+          text-decoration: none; }
+        .main .item-box .item-body li .mask {
+          display: none;
+          width: 60%;
+          background: #3a3a3a;
+          position: absolute;
+          top: 0;
+          bottom: 50px;
+          box-sizing: border-box;
+          left: 20%;
+          border-radius: 6px; }
+        .main .item-box .item-body li.has-mask .mask {
+          display: inline-block; }
+
+/*# sourceMappingURL=inventory-task.css.map*/

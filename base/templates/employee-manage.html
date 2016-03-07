@@ -1,0 +1,98 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block title %} 员工管理 {% endblock %}
+
+{% block css %}
+<link href="{% static "css/employee-manage.css" %}" rel="stylesheet"></link>
+{% endblock %}
+
+{% block js %}
+ <script src="{% static "js/employee-manage.js" %}"></script>
+{% endblock %}
+
+{% block content %}
+
+<div class="main">
+
+  <div class="top-bar clearfix">
+    <div class="filter-bar clearfix">
+      <div class="condition">职位</div>
+      <ul>
+        {% for v, disp in filters %}
+        <li><a href="?is_active={{ v }}"
+            {% if selected == v %}class="active"{% endif %}
+            >{{ disp }} {{ active }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="search-bar">
+      <form method='GET' class="clearfix">
+
+        <div class="select-search">
+          <div class="name">搜索</div>
+          <ul>
+            {% for codename, dispname, value in search_fields %}
+            <li codename="{{ codename }}">{{ dispname }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+
+        <input class="search-submit" type="submit" value="搜索">
+        <input class="search-input" type="text" name="">
+      </form>
+    </div>
+
+  </div>
+
+  <div class="add-bar">
+    <a href="{% url "employee_create" %}">新增员工</a>
+  </div>
+
+  <div class="table-manage">
+    <ul class="table-th clearfix">
+      <li class="t-name">姓名</li>
+      <li class="t-phone">手机</li>
+      <li class="t-notes">门店</li>
+      <li class="t-position">职位</li>
+      <li class="t-option">在职</li>
+    </ul>
+
+    {% for e in employee %}
+    <a href="{% url "employee_detail" e.pk %}">
+    <ul class="table-td clearfix">
+        <li class="t-name">{{ e.name }}</li>
+        <li class="t-phone">{{ e.phone }}</li>
+        <li class="t-notes">{{ e.shop|default:"集团" }}</li>
+        <li class="t-position">{{ e.title }}</li>
+      <li class="t-option">
+        <div class="switch-box">
+          <input type="checkbox">
+          {% if e.is_active %}
+          <div class="checkbox" data-text="在职">在职</div>
+          {% else %}
+          <div class="checkbox disabled" data-text="离职">离职</div>
+          {% endif %}
+        </div>
+      </li>
+    </ul>
+    {% endfor %}
+  </div>
+
+</div>
+
+<div class="paginations">
+    <ul>
+        <li class="active">
+            <a href="#">1</a>
+        </li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">...</a></li>
+        <li><a href="#">46</a></li>
+    </ul>
+</div>
+
+{% endblock %}

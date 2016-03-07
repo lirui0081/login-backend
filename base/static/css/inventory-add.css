@@ -1,0 +1,110 @@
+.breadcrumb {
+  padding: 0;
+  margin: 0;
+  position: static; }
+
+.main {
+  background: #fff;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #efefef;
+  padding: 10px;
+  min-height: 100%; }
+
+.add-form {
+  width: 100%;
+  height: auto; }
+  .add-form .ipt-group {
+    margin: 16px auto;
+    width: 350px;
+    height: 30px;
+    position: relative; }
+    .add-form .ipt-group .order {
+      display: inline-block;
+      vertical-align: baseline;
+      color: #505050; }
+    .add-form .ipt-group label {
+      display: inline-block;
+      width: 80px;
+      vertical-align: baseline;
+      cursor: default; }
+    .add-form .ipt-group input, .add-form .ipt-group .type {
+      width: 250px;
+      vertical-align: baseline;
+      height: 100%;
+      box-sizing: border-box;
+      margin: 0;
+      border-radius: 30px;
+      padding-left: 1em;
+      border: 1px solid #d9d9d9;
+      box-shadow: none; }
+      .add-form .ipt-group input.man, .add-form .ipt-group input.type, .add-form .ipt-group .type.man, .add-form .ipt-group .type.type {
+        width: 150px; }
+      .add-form .ipt-group input.type, .add-form .ipt-group .type.type {
+        display: inline-block;
+        vertical-align: baseline;
+        background: #fff;
+        cursor: pointer;
+        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAGCAYAAAD37n+BAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAAsSAAALEgHS3X78AAAAm0lEQVQY023OoWrCYRjF4ecz2ATRZnA3sGgQTOsGb8Dmylu2Mkx2r+AF02BRTOoVeAMDL2FNb2HBlU+Q8T9wyjk/OKdk5gf6WEXErwZl5hM+cWlhWX3KzGEDPMcZL3huYYofjPGdmbMK9jJziy90sMG41LJbJ2e4YYcJBrhgERFHKA/TBe9Yo13jPV4j4nrnSsPnEbY4RMTb//4Po1EsZ0ITUnEAAAAASUVORK5CYII=) no-repeat;
+        background-position: 95% center;
+        background-size: auto 20%; }
+      .add-form .ipt-group input.type-ipt, .add-form .ipt-group .type.type-ipt {
+        display: none; }
+    .add-form .ipt-group .type-daili {
+      height: 100%;
+      position: absolute;
+      width: 150px;
+      cursor: pointer;
+      left: 84px;
+      top: 0;
+      box-sizing: border-box;
+      padding-left: 1em;
+      line-height: 30px; }
+    .add-form .ipt-group .type-select {
+      display: none;
+      position: absolute;
+      margin: 0;
+      list-style: none;
+      width: 150px;
+      height: auto;
+      left: 85px;
+      top: 32px;
+      box-sizing: border-box;
+      border: 1px solid #d9d9d9;
+      background: #fff;
+      z-index: 999; }
+      .add-form .ipt-group .type-select li {
+        box-sizing: border-box;
+        width: 100%;
+        line-height: 28px;
+        border-bottom: 1px solid #d9d9d9;
+        padding-left: 1em;
+        cursor: pointer; }
+        .add-form .ipt-group .type-select li:last-child {
+          border-bottom: 0; }
+    .add-form .ipt-group .describe {
+      display: block;
+      width: 500px;
+      height: 95px;
+      border: 1px solid #d9d9d9;
+      box-sizing: border-box;
+      border-radius: 10px;
+      margin-top: 10px; }
+    .add-form .ipt-group.describe-group {
+      height: auto; }
+    .add-form .ipt-group.submit-group {
+      padding: 50px 0 100px 0; }
+      .add-form .ipt-group.submit-group .submit {
+        height: 30px;
+        width: 100px;
+        text-align: center;
+        color: #fff;
+        background: #54addc;
+        border: 0;
+        margin-left: 50%;
+        padding: 0; }
+        .add-form .ipt-group.submit-group .submit:active {
+          background: #2b98d2; }
+
+/*# sourceMappingURL=inventory-add.css.map*/

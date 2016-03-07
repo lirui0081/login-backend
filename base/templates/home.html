@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+
+{% block title %} home {% endblock %}
+
+
+{% block content %}
+
+hello,
+
+{% if request.user.is_authenticated %}
+    {{ request.user }}
+{% else %}
+    Stranger
+{% endif %}
+!
+{% endblock %}

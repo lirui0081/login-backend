@@ -1,0 +1,21 @@
+<div id="sidebar-left" class="sidebar-left">
+    <div class="nav-collapse sidebar-nav">
+        <ul class="nav nav-tabs nav-stacked main-menu">
+            {% for link, name, icon_name in nav_list %}
+            <li {% if request.path = link %}class="active"{% endif %}>
+                <a href="{{ link }}">
+                    <span class="{{ icon_name }}"></span>
+                    <span class="font-table">{{ name }}</span>
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+<!-- end: Main Menu -->
+<noscript>
+    <div class="alert alert-block span10">
+        <h4 class="alert-heading">注意!</h4>
+        <p>You need to have <a href="http://en.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript</a> enabled to use this site.</p>
+    </div>
+</noscript>

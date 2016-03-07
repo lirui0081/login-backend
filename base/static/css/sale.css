@@ -1,0 +1,360 @@
+.main {
+  background: #fff;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #efefef;
+  position: relative;
+  padding: 0 15px;
+  padding-bottom: 20px; }
+  .main .button-box {
+    overflow: hidden; }
+    .main .button-box button {
+      width: 80px;
+      height: 30px;
+      line-height: 30px;
+      padding: 0;
+      text-align: center;
+      color: #fff;
+      background: #b3b4b5;
+      border: 0;
+      box-shadow: none;
+      border-radius: 4px;
+      margin: 5px;
+      margin-top: 16px; }
+      .main .button-box button.active {
+        background-color: #54addc; }
+  .main .details-box {
+    overflow: hidden;
+    margin: 10px 0; }
+    .main .details-box > div {
+      float: left;
+      margin-right: 50px; }
+  .main h2.title {
+    font-size: 16px;
+    padding: 0;
+    color: #424c56;
+    border-left: 2px solid #54addc;
+    line-height: 20px;
+    padding-left: 4px;
+    margin: 30px 0 20px 0; }
+  .main .form-box .ipt-group {
+    float: left;
+    height: 28px;
+    padding: 0px 35px 0 5px; }
+    .main .form-box .ipt-group label {
+      display: inline;
+      line-height: 28px;
+      padding-right: 1em; }
+    .main .form-box .ipt-group input, .main .form-box .ipt-group .select-box .name {
+      display: inline-block;
+      width: 200px;
+      box-sizing: border-box;
+      height: 28px;
+      margin: 0;
+      border: 1px solid #d9d9d9;
+      border-radius: 20px;
+      box-shadow: none; }
+      .main .form-box .ipt-group input.ipt-phone, .main .form-box .ipt-group .select-box .name.ipt-phone {
+        width: 220px; }
+      .main .form-box .ipt-group input.ipt-name, .main .form-box .ipt-group .select-box .name.ipt-name {
+        width: 120px; }
+      .main .form-box .ipt-group input.name-gender, .main .form-box .ipt-group .select-box .name.name-gender {
+        width: 60px; }
+      .main .form-box .ipt-group input.name-level, .main .form-box .ipt-group .select-box .name.name-level {
+        width: 100px; }
+    .main .form-box .ipt-group .select-box {
+      vertical-align: middle;
+      display: inline-block;
+      position: relative; }
+      .main .form-box .ipt-group .select-box .name {
+        text-align: center;
+        cursor: pointer;
+        box-sizing: border-box;
+        padding-right: 20px;
+        line-height: 26px;
+        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAGCAYAAAD37n+BAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAAsSAAALEgHS3X78AAAAm0lEQVQY023OoWrCYRjF4ecz2ATRZnA3sGgQTOsGb8Dmylu2Mkx2r+AF02BRTOoVeAMDL2FNb2HBlU+Q8T9wyjk/OKdk5gf6WEXErwZl5hM+cWlhWX3KzGEDPMcZL3huYYofjPGdmbMK9jJziy90sMG41LJbJ2e4YYcJBrhgERFHKA/TBe9Yo13jPV4j4nrnSsPnEbY4RMTb//4Po1EsZ0ITUnEAAAAASUVORK5CYII=) no-repeat;
+        background-size: auto 20%;
+        background-position: 88% center; }
+      .main .form-box .ipt-group .select-box ul {
+        position: absolute;
+        list-style: none;
+        width: 80%;
+        left: 10%;
+        margin: 0;
+        border: 1px solid #d9d9d9;
+        top: 30px; }
+        .main .form-box .ipt-group .select-box ul li {
+          border-bottom: 1px solid #d9d9d9;
+          cursor: pointer;
+          text-align: center;
+          color: #424c56; }
+          .main .form-box .ipt-group .select-box ul li:hover {
+            background: #e6e6e6; }
+          .main .form-box .ipt-group .select-box ul li:last-child {
+            border-bottom: 0; }
+  .main .search-form {
+    padding-left: 0;
+    margin-top: 30px; }
+    .main .search-form .search-inner {
+      background: #f5f8fa;
+      width: 430px;
+      height: 320px; }
+      .main .search-form .search-inner .search-bar {
+        height: 70px; }
+        .main .search-form .search-inner .search-bar .ipt-rfid {
+          display: inline-block;
+          width: 270px;
+          box-sizing: border-box;
+          height: 28px;
+          margin: 0;
+          border: 1px solid #d9d9d9;
+          border-radius: 20px;
+          box-shadow: none;
+          margin-top: 21px;
+          margin-left: 12px; }
+        .main .search-form .search-inner .search-bar .search-btn {
+          width: 60px;
+          height: 28px;
+          margin-top: 21px;
+          margin-left: 6px;
+          box-sizing: border-box;
+          border: 0;
+          border-radius: 20px;
+          background: #54addc;
+          color: #fff; }
+      .main .search-form .search-inner .product-box {
+        height: 180px; }
+        .main .search-form .search-inner .product-box .img-box {
+          padding: 0;
+          float: left;
+          width: 180px;
+          height: 180px;
+          margin-left: 14px;
+          border: 1px solid #d9d9d9;
+          overflow: hidden; }
+          .main .search-form .search-inner .product-box .img-box img {
+            width: 100%;
+            height: 100%;
+            border-radius: 4px; }
+        .main .search-form .search-inner .product-box .product-details {
+          float: right;
+          width: 220px; }
+          .main .search-form .search-inner .product-box .product-details h2.name {
+            margin: 0;
+            color: #424c56;
+            font-size: 16px;
+            line-height: 30px;
+            padding-bottom: 8px; }
+          .main .search-form .search-inner .product-box .product-details .ipt-price, .main .search-form .search-inner .product-box .product-details .ipt-discount, .main .search-form .search-inner .product-box .product-details .ipt-unit-price, .main .search-form .search-inner .product-box .product-details .ipt-cut-price, .main .search-form .search-inner .product-box .product-details .ipt-change-ring {
+            margin: 0;
+            background: #fff;
+            height: 24px;
+            border-radius: 4px;
+            border: 1px solid #d9d9d9;
+            box-sizing: border-box;
+            cursor: auto;
+            box-shadow: none; }
+            .main .search-form .search-inner .product-box .product-details .ipt-price[disabled], .main .search-form .search-inner .product-box .product-details .ipt-discount[disabled], .main .search-form .search-inner .product-box .product-details .ipt-unit-price[disabled], .main .search-form .search-inner .product-box .product-details .ipt-cut-price[disabled], .main .search-form .search-inner .product-box .product-details .ipt-change-ring[disabled] {
+              background: #f5f8fa;
+              border: 0; }
+          .main .search-form .search-inner .product-box .product-details .price-box {
+            height: 30px; }
+            .main .search-form .search-inner .product-box .product-details .price-box .sympol {
+              font-size: 20px;
+              color: #ff3737;
+              position: relative;
+              top: -5px; }
+            .main .search-form .search-inner .product-box .product-details .price-box .ipt-price {
+              width: 90px;
+              height: 24px;
+              color: #ff3737;
+              font-size: 20px;
+              padding-left: 0; }
+            .main .search-form .search-inner .product-box .product-details .price-box .change-price-btn {
+              color: #54addc;
+              font-size: 13px;
+              margin-left: 6px;
+              text-decoration: none; }
+              .main .search-form .search-inner .product-box .product-details .price-box .change-price-btn:active {
+                color: #2b98d2; }
+          .main .search-form .search-inner .product-box .product-details .discount-box {
+            width: 40%;
+            display: inline-block;
+            height: 24px;
+            margin-top: 10px; }
+            .main .search-form .search-inner .product-box .product-details .discount-box .ipt-discount {
+              width: 22px; }
+          .main .search-form .search-inner .product-box .product-details .unit-price-box {
+            width: 55%;
+            display: inline-block;
+            height: 24px;
+            margin-top: 10px; }
+            .main .search-form .search-inner .product-box .product-details .unit-price-box .ipt-unit-price {
+              width: 50px; }
+          .main .search-form .search-inner .product-box .product-details .cut-price-box, .main .search-form .search-inner .product-box .product-details .change-ring-box {
+            width: 100%;
+            padding-top: 15px;
+            vertical-align: middle; }
+            .main .search-form .search-inner .product-box .product-details .cut-price-box input[type="checkbox"], .main .search-form .search-inner .product-box .product-details .change-ring-box input[type="checkbox"] {
+              margin: 0; }
+            .main .search-form .search-inner .product-box .product-details .cut-price-box .ipt-change-ring, .main .search-form .search-inner .product-box .product-details .cut-price-box .ipt-cut-price, .main .search-form .search-inner .product-box .product-details .change-ring-box .ipt-change-ring, .main .search-form .search-inner .product-box .product-details .change-ring-box .ipt-cut-price {
+              width: 80px; }
+      .main .search-form .search-inner .submit-box {
+        width: 100%;
+        padding-top: 23px;
+        text-align: center; }
+        .main .search-form .search-inner .submit-box .product-submit-btn {
+          height: 30px;
+          width: 85px;
+          text-align: center;
+          background: #54addc;
+          color: #fff;
+          font-size: 14px;
+          line-height: 30px;
+          border: 0;
+          margin: 0;
+          padding: 0;
+          box-shadow: none;
+          border-radius: 4px;
+          outline: none; }
+          .main .search-form .search-inner .submit-box .product-submit-btn:active {
+            background: #2b98d2; }
+  .main .paper-box .paper-table {
+    width: 100%;
+    background: url("/static/images/paper-bg.png") no-repeat; }
+    .main .paper-box .paper-table h3.shop {
+      width: 100%;
+      height: 44px;
+      line-height: 44px;
+      font-weight: bold;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      color: #424c56; }
+    .main .paper-box .paper-table .til-box {
+      height: 40px;
+      line-height: 40px;
+      width: 100%;
+      padding: 0 40px;
+      box-sizing: border-box;
+      color: #424c56; }
+      .main .paper-box .paper-table .til-box > div {
+        float: left;
+        width: 25%;
+        text-align: center; }
+        .main .paper-box .paper-table .til-box > div .cont {
+          font-weight: bold;
+          padding-left: 1em; }
+    .main .paper-box .paper-table .table-cont {
+      width: 954px;
+      margin: 0 auto; }
+      .main .paper-box .paper-table .table-cont .table-th {
+        height: 30px;
+        background: #54addc; }
+        .main .paper-box .paper-table .table-cont .table-th li {
+          line-height: 30px;
+          color: #fff; }
+      .main .paper-box .paper-table .table-cont .table-td {
+        height: 40px;
+        background: #fff; }
+        .main .paper-box .paper-table .table-cont .table-td:nth-child(even) {
+          background: #f0f0f0; }
+        .main .paper-box .paper-table .table-cont .table-td li {
+          line-height: 40px;
+          color: #424c56; }
+          .main .paper-box .paper-table .table-cont .table-td li input {
+            text-align: center;
+            width: 60%;
+            padding: 0;
+            margin: 0;
+            position: relative;
+            top: -1px; }
+            .main .paper-box .paper-table .table-cont .table-td li input[disabled] {
+              background: none;
+              border: none;
+              box-shadow: none; }
+          .main .paper-box .paper-table .table-cont .table-td li .editor, .main .paper-box .paper-table .table-cont .table-td li .confirm {
+            color: #54addc;
+            cursor: pointer; }
+          .main .paper-box .paper-table .table-cont .table-td li .delete {
+            color: #ff2938;
+            cursor: pointer; }
+      .main .paper-box .paper-table .table-cont ul {
+        list-style: none;
+        margin: 0;
+        padding: 0; }
+      .main .paper-box .paper-table .table-cont li {
+        float: left;
+        font-size: 14px;
+        text-align: center; }
+        .main .paper-box .paper-table .table-cont li.t-name {
+          width: 15%; }
+        .main .paper-box .paper-table .table-cont li.t-cnum {
+          width: 12%; }
+        .main .paper-box .paper-table .table-cont li.t-weight {
+          width: 7%; }
+        .main .paper-box .paper-table .table-cont li.t-unit-price {
+          width: 7%; }
+        .main .paper-box .paper-table .table-cont li.t-main-stone {
+          width: 7%; }
+        .main .paper-box .paper-table .table-cont li.t-work-fee {
+          width: 7%; }
+        .main .paper-box .paper-table .table-cont li.t-tag-price {
+          width: 7%; }
+        .main .paper-box .paper-table .table-cont li.t-count {
+          width: 7%; }
+        .main .paper-box .paper-table .table-cont li.t-price {
+          width: 6%; }
+        .main .paper-box .paper-table .table-cont li.t-cut {
+          width: 6%; }
+        .main .paper-box .paper-table .table-cont li.t-actuality {
+          width: 7%; }
+        .main .paper-box .paper-table .table-cont li.t-option {
+          width: 6%; }
+    .main .paper-box .paper-table .result-box {
+      position: relative; }
+      .main .paper-box .paper-table .result-box .checkbox-box {
+        position: absolute;
+        right: 50px;
+        bottom: 44px; }
+        .main .paper-box .paper-table .result-box .checkbox-box input {
+          margin: 0; }
+      .main .paper-box .paper-table .result-box .result-price {
+        height: 64px;
+        line-height: 64px;
+        width: 100%;
+        padding-left: 30px;
+        box-sizing: border-box; }
+      .main .paper-box .paper-table .result-box .result-detail {
+        height: 36px;
+        line-height: 36px; }
+        .main .paper-box .paper-table .result-box .result-detail > div {
+          float: left;
+          width: 25%;
+          text-align: center; }
+          .main .paper-box .paper-table .result-box .result-detail > div .cont {
+            padding-left: 1em; }
+  .main .last-submit-box {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 200px;
+    margin-top: 100px; }
+    .main .last-submit-box .last-submit-button {
+      margin: 0;
+      width: 150px;
+      height: 40px;
+      line-height: 40px;
+      border: 0;
+      border-radius: 4px;
+      box-shadow: none;
+      outline: none;
+      background: #54addc;
+      color: #fff;
+      text-align: center;
+      padding: 0;
+      font-size: 15px; }
+      .main .last-submit-box .last-submit-button:active {
+        background: #2992ca; }
+
+/*# sourceMappingURL=sale.css.map*/
